@@ -1,0 +1,9 @@
+package poly.persistance.mapper;
+
+import poly.dto.OcrDto;
+
+public interface IOcrMapper {
+
+	OcrDto getReadforImageText();
+
+}

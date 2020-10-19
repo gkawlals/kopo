@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="poly.persistance.mapper.IOcrMapper">
+
+<insert id="getReadForImageText" parameterType="OcrDto">
+		INSERT INTO ORC_INFO 
+		( 
+			SEQ,
+			SAVE_FILE_NAME,
+			SAVE_FILE_PATH,
+			ORG_FILE_NAME,
+			EXT,
+			ORG_TEXT,
+			REG_ID,
+			CHG_ID
+		)
+		VALUES 
+		(	
+			ORC_SEQ.NEXTVAL,
+			#{save_file_name},
+			#{save_file_path},
+			#{org_file_name},
+			#{ext},
+			#{org_text},
+			#{reg_id},
+			#{reg_id}
+			
+		)
+		
+</insert>
+</mapper>

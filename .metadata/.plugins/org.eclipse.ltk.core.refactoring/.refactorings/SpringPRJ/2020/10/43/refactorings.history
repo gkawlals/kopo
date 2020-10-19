@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;SpringPRJ&apos;&#x0A;- Original project: &apos;SpringPRJ&apos;&#x0A;- Original element: &apos;poly.controller.WebSocketController.java&apos;" description="Delete element" element1="/src&lt;poly.controller{WebSocketController.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1603074237186" subPackages="false" version="1.0"/>
+</session>
